@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        * {
+        }
+
+        #main {
+            width:800px;
+            margin: 0px auto;
+        }
+
+        #header img{
+            width:400px; height:630px;
+            margin: 0px 10px;
+        }
+        #header, #wrapper {
+            float:left
+        }
+
+        #wrapper {
+
+        }
+
+        #form {
+            margin:10px;
+            width:350px; height:450px;
+            border: 1px solid lightgrey;
+            text-align: center;
+            padding:30px;
+            box-sizing:border-box;
+
+        }
+
+        #form input {
+
+            width:250px; height: 30px;
+            border: 1px solid lightgrey;
+            border-radius: 2px;
+            margin: 5px 5px
+        }
+
+        #wrapper div a {
+            text-decoration:none;
+            color:black;
+            margin:100px auto;
+
+        }
+
+        #비밀번호분실 {
+            text-align: right;
+            margin: 30px 0px;
+            color: lightgrey;
+
+        }
+        #로그인 {
+            width:230px; height:30px;
+            margin: 30px auto;
+            border-radius: 3px;
+            background-color: dodgerblue;
+
+            color: white;
+            font-weight: bold;
+        }
+
+        #또는 {
+            color: grey;
+        }
+        #facebook {
+            height: 60px;
+            line-height: 60px;
+            color:darkblue;
+            font-weight:bold;
+
+        }
+
+        #facebook a {
+            color:darkblue;
+        }
+
+        #Q {
+            width:350px; height:60px;
+            margin:10px;
+            border: 1px solid lightgrey;
+            line-height: 60px;
+            text-align: center;
+
+        }
+
+        #가입하기 {
+            color:dodgerblue;
+            font-weight:bold;
+        }
+
+        #앱 p {
+            text-align: center;
+        }
+        #앱 img {
+            width:120px; height:40px;
+
+
+        }
+
+        #앱 이미지 {
+            width:250px;
+            padding:30px;
+            margin: 0px auto;
+            float:center;
+        }
+
+        footer {
+            clear: both;
+            width:900px; height: 200px;
+            line-height: 200px;
+            margin: 0px auto;
+        }
+
+        footer div a {
+            color:darkblue;
+            font-weight:bold;
+            text-decoration:none;
+            margin:0 5px;
+            font-size: 0.8em;
+        }
+
+        footer div {
+            display:inline;
+        }
+
+        footer .c {
+            color:lightgrey;
+            float:right;
+            font-size: 0.8em;
+        }
+
+        footer {
+            overflow:hidden;
+            clear:both;
+        }
+
+
+    </style>
+
+</head>
+<br>
+
+<div id="main">
+    <div id="header">
+        <div id="image"><img src="instagramimage.png"/></div>
+
+    </div>
+
+    <div id="wrapper">
+        <div id="form">
+            <div><img src="instagramtitle.png"/></div>
+
+            <form action="#" method="post">
+                <input type="text" name="uname" placeholder="전화번호,사용자 이름 또는 이메일"/><br />
+                <input type="password" name="password" placeholder="비밀번호"/><br />
+
+            </form>
+
+            <div id="비밀번호분실"> <a href="#">비밀번호를 잊으셨나요?</a> </div>
+
+            <input id="로그인" type="submit" value="로그인">
+
+            <div id="또는">또는</div>
+            <div> <a id="facebook" href="#"><img src="facebookimage.png" />Facebook으로 로그인</a> </div>
+
+        </div>
+
+        <div id="Q">
+            <span>계정이 없으신가요?</span>
+            <span id="가입하기"><a href="#">가입하기</a></span>
+        </div>
+
+
+        <div id="앱">
+            <p>앱을 다운로드하세요.</p>
+
+            <div id="앱 이미지">
+                <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_korean-ko.png/4a5c9d62d51b.png"/>
+                <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_korean-ko.png/f155b664a93b.png"/>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <footer>
+        <div><a href="#">INSTAGRAM 정보</a></div>
+        <div><a href="#">지원</a></div>
+        <div><a href="#">홍보 센터</a></div>
+        <div><a href="#">API</a></div>
+        <div><a href="#">채용 정보</a></div>
+        <div><a href="#">개인정보처리방침</a></div>
+        <div><a href="#">약관</a></div>
+        <div><a href="#">디렉터리</a></div>
+        <div><a href="#">프로필</a></div>
+        <div><a href="#">해시태그</a></div>
+        <div><a href="#">언어</a></div>
+
+        <div class="c">© 2019 INSTAGRAM</div>
+    </footer>
+
+</body>
+</html>
