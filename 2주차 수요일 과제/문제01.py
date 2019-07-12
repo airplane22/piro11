@@ -1,4 +1,4 @@
-words = ['apple','apps', 'ape']
+words = ['apple','apps','ape']
 
 words.sort(key=len)
 
@@ -12,6 +12,9 @@ for i in range(0, len(words[0])):
                         x = words[0][0:i]
                         breaking = 0
                         break
+                else :
+                        x = words[0][0:i+1]
+
 
         if breaking == 0:
                 break
